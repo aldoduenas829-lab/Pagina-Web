@@ -1,0 +1,191 @@
+{
+    "gta5": {
+        "color": "#2ecc71",
+        "titulo": "GTA V",
+        "texto": "**GTA 5** es una de las obras más masivas de la industria, llevando a los jugadores de vuelta al estado de San Andreas pero con un nivel de detalle y extensión sin precedentes. La gran innovación de esta entrega es su narrativa entrelazada a través de tres protagonistas con personalidades y vidas totalmente distintas: Michael, un exatracador de bancos retirado que vive una crisis familiar en una mansión de lujo; Franklin, un joven estafador que busca subir de nivel en el mundo del crimen organizado; y Trevor, un psicópata impredecible que vive en el desierto rodeado de caos. El jugador puede intercambiar entre estos personajes casi en cualquier momento, lo que permite vivir los grandes robos y misiones desde diferentes perspectivas simultáneas. La ciudad de Los Santos y el condado de Blaine ofrecen un mundo abierto vibrante donde las actividades son casi infinitas, desde participar en carreras ilegales y saltar en paracaídas hasta invertir en la bolsa de valores o explorar el fondo del océano. El juego funciona como una sátira feroz y humorística de la cultura estadounidense contemporánea, el mundo de Hollywood y las redes sociales. Además de su extensa campaña principal, el título se expandió enormemente con su modalidad en línea, donde los jugadores pueden crear su propio imperio criminal, organizar golpes complejos con amigos y personalizar cada aspecto de su experiencia. Es un juego que destaca por su pulida jugabilidad, su factura técnica impresionante y una libertad que permite pasar de momentos de acción cinematográfica a la simple contemplación de un atardecer en el muelle de Santa Monica.",
+        "imgs":["gta5_2.jpg.jpeg","gta5_3.jpg.jpeg"],
+        "trucos": ["PAINKILLER – Invencibilidad", "TOOLUP – Todas las armas"]
+    },
+    "sa": {
+        "color": "#27ae60",
+        "titulo": "GTA San Andreas",
+        "texto": "**GTA San Andreas** es considerado por muchos como la entrega más ambiciosa y completa de la era clásica de la franquicia, expandiendo el mapa de una sola ciudad a todo un estado ficticio inspirado en California y Nevada. La trama sigue a Carl Johnson, mejor conocido como CJ, quien regresa a su barrio en Los Santos tras la muerte de su madre para encontrarse con su familia y su pandilla totalmente desmoronadas. Lo que comienza como una lucha por recuperar el control de las calles termina convirtiéndose en un viaje épico que lleva al protagonista por zonas rurales, desiertos y ciudades basadas en San Francisco y Las Vegas. El juego introdujo elementos de rol inéditos en la saga, permitiendo que el jugador personalizara el aspecto físico de CJ mediante el ejercicio, la alimentación y la vestimenta, además de mejorar habilidades como la puntería o la conducción. Con una banda sonora legendaria que abarca desde el hip-hop de la costa oeste hasta el rock alternativo, el juego ofrece una libertad casi absoluta para pilotar aviones, participar en guerras de bandas o simplemente explorar los secretos ocultos en su inmenso territorio. Es una obra que no solo perfeccionó la fórmula del mundo abierto, sino que también entregó una historia de redención y lealtad que sigue siendo un pilar fundamental en la cultura de los videojuegos.",
+        "imgs": ["sa1.jpg.jpeg", "sa2.jpg.jpeg", "sa3.jpg.jpeg"],
+        "trucos": ["HESOYAM – Vida y Escudo", "ROCKETMAN – Jetpack"]
+    },
+    "gta4": {
+        "color": "#3498db",
+        "titulo": "GTA IV",
+        "texto": "**GTA 4** representa un cambio drástico en la dirección de la franquicia, dejando atrás el tono más caricaturesco de entregas anteriores para ofrecer una narrativa mucho más cruda, realista y melancólica. La historia se centra en Niko Bellic, un veterano de guerra de Europa del Este que llega a Liberty City buscando el sueño americano y huyendo de un pasado oscuro, solo para descubrir que la ciudad está llena de corrupción y que los viejos demonios son difíciles de abandonar. El juego introdujo un motor físico avanzado que hizo que la conducción, los impactos y el movimiento de los personajes se sintieran pesados y auténticos, alejándose de la agilidad arcade de sus predecesores. A través de la relación de Niko con su primo Roman y diversos sindicatos del crimen, el jugador explora una metrópolis densa y detallada que sirve como una sátira mordaz de la sociedad moderna. Es recordado por tener una de las tramas más profundas y humanas de toda la saga, donde cada decisión tiene un peso moral y las consecuencias de la violencia se sienten mucho más reales.",
+        "imgs": ["gta4_1.jpg.jpeg", "gta4_2.jpg.jpeg", "gta4_3.jpg.jpeg"],
+        "trucos": ["482-555-0100 – Vida"]
+    },
+    "vice": {
+        "color": "#e91e63",
+        "titulo": "GTA Vice City",
+        "texto":"GTA Vice City es una de las entregas más icónicas de la serie Grand Theft Auto, ambientada en una versión ficticia de Miami durante la colorida y salvaje década de los ochenta. La historia sigue a Tommy Vercetti, un mafioso que acaba de salir de prisión y es enviado a esta ciudad tropical para establecer operaciones, pero termina envuelto en una traición que lo obliga a construir su propio imperio criminal desde cero. El juego destaca por su increíble banda sonora cargada de sintetizadores y rock de la época, además de una estética neón que captura perfectamente el estilo visual de series como Miami Vice. Los jugadores pueden recorrer un mundo abierto lleno de palmeras, mansiones y playas mientras completan misiones que incluyen desde persecuciones intensas hasta tiroteos épicos, todo con el objetivo de controlar cada negocio de la ciudad. Es un título que definió la libertad en los videojuegos y se convirtió en un referente cultural por su narrativa inspirada en el cine de gánsteres y su atmósfera nostálgica inigualable.",
+        "imgs": ["vice1.jpg.jpeg", "vice2.jpg.jpeg"],
+        "trucos": ["ASPIRINE – Vida completa"]
+    },
+    "repo": {
+        "color": "#f39c12",
+        "titulo": "R.E.P.O",
+        "texto": "R.E.P.O. es un juego de terror cooperativo en primera persona que te pone en los zapatos de un agente de recuperación de bienes trabajando para una corporación bastante sombría. La misión principal es entrar en instalaciones peligrosas y abandonadas para extraer objetos específicos que la empresa necesita recuperar, todo esto mientras evitas ser eliminado por las extrañas entidades que acechan en la oscuridad. El juego destaca por su atmósfera tensa y un estilo visual algo retro, donde la comunicación con tu equipo es fundamental para sobrevivir. No se trata solo de entrar y salir, sino de gestionar bien tus herramientas limitadas y aprender el comportamiento de los enemigos, ya que el combate no suele ser una opción viable; aquí lo que cuenta es el sigilo, la rapidez y saber cuándo retirarse antes de que las cosas se pongan feas. Es ideal si buscas esa mezcla de pánico y risas que surge cuando un plan coordinado con amigos termina en un caos total.",
+        "imgs": ["Repo.png"],
+        "trucos": ["No hay trucos disponibles"]
+    },
+    "fornite": {
+        "color": "#9b59b6",
+        "titulo": "Fortnite",
+        "texto": "Fortnite es un fenómeno global que, aunque empezó como un juego de supervivencia cooperativo, se hizo famoso por su modo Battle Royale gratuito donde 100 jugadores caen en una isla para pelear hasta que solo quede uno en pie. Lo que realmente lo separa de otros juegos del género es su mecánica de construcción, que permite a los jugadores recolectar materiales (madera, piedra y metal) para levantar muros, rampas y torres en medio de los disparos, transformando las batallas en algo muy dinámico y estratégico. El juego tiene una estética colorida y estilo caricatura, pero no te dejes engañar, porque el nivel competitivo es altísimo. Además, se ha convertido en una especie de (metaverso) donde hay conciertos en vivo, eventos masivos que cambian el mapa cada temporada y una cantidad enorme de colaboraciones con películas, series y otros videojuegos, lo que hace que siempre haya algo nuevo que ver o desbloquear. No es solo un juego de disparos, sino un espacio social gigante donde puedes desde jugar carreras o crear tus propios mapas hasta simplemente pasar el rato con amigos usando los famosos bailes y skins.",
+        "imgs": ["Fornite.jpg"],
+        "trucos": ["Construcción rápida", "Uso de coberturas"]
+    },
+    "minecraft": {
+        "color": "#16a085",
+        "titulo": "Minecraft",
+        "texto": "Minecraft es prácticamente el juego de construcción y aventura infinito por excelencia, donde todo el mundo está hecho de bloques que puedes romper y colocar a tu antojo. Básicamente te sueltan en un mapa generado al azar donde no hay reglas fijas: puedes jugar en modo supervivencia, donde tienes que conseguir comida, refugio y materiales para defenderte de monstruos como los Creepers al caer la noche, o en modo creativo, donde tienes recursos ilimitados para construir lo que se te ocurra, desde una casa sencilla hasta ciudades enteras o circuitos de lógica complejos. Lo que lo hace tan especial es esa libertad absoluta, ya que el límite es literalmente tu creatividad. Además, tiene una comunidad gigante que crea mods, mapas de aventura y servidores multijugador, lo que ha permitido que el juego se mantenga vigente por años como un espacio donde puedes desde explorar cuevas profundas hasta aprender conceptos básicos de programación y arquitectura sin darte cuenta.",
+        "imgs": ["mc.jpg"],
+        "trucos": ["/gamemode creative", "/locate structure"]
+    },
+    "fifa": {
+        "color": "#2c3e50",
+        "titulo": "EA Sports FC",
+        "texto": "La saga de FIFA (ahora conocida como EA Sports FC) es el simulador de fútbol más influyente y vendido del mundo, enfocado en recrear la experiencia del deporte profesional con el mayor realismo posible. Su punto fuerte siempre ha sido el manejo de licencias oficiales, lo que te permite jugar con prácticamente cualquier equipo, liga o selección real, usando a los jugadores con sus rostros y estadísticas actualizadas. El juego ofrece varios modos, desde el clásico (Modo Carrera) donde gestionas a un club o a un solo jugador a lo largo de los años, hasta el modo estrella, Ultimate Team (FUT), donde armas tu equipo ideal coleccionando cartas de jugadores para competir online. Aunque la jugabilidad ha evolucionado para ser más técnica y fluida con motores físicos modernos, el núcleo sigue siendo esa mezcla de competitividad y espectáculo, ideal tanto para echar una reta rápida con amigos en el sillón como para meterse de lleno en torneos internacionales. Es un juego que se siente como ver una transmisión de televisión, donde la emoción de meter un gol de último minuto y las constantes actualizaciones de contenido lo mantienen pegado a la actualidad del fútbol real durante toda la temporada.",
+        "imgs": ["Fc08.jpg", "Fc17.jpg", "Fc26.jpg"],
+        "trucos": ["R1 + Círculo: Tiro colocado", "L1: Regate preciso"]
+    },
+    "Dead Space": {
+        "color": "#2c3e50",
+        "titulo": "Dead Space",
+        "texto": "**Dead Space** es una obra maestra del terror de ciencia ficción que te pone en la piel de Isaac Clarke, un ingeniero que forma parte de una misión de rescate enviada a la USG Ishimura, una gigantesca nave de minería espacial que ha quedado en silencio absoluto. Al llegar, descubres que la tripulación ha sido masacrada y transformada en necromorfos, unas criaturas grotescas reanimadas por una misteriosa señal alienígena conocida como la Efigie. A diferencia de otros juegos de disparos, aquí el combate se basa en el desmembramiento estratégico, lo que significa que debes usar tus herramientas de minería, como la cortadora de plasma, para arrancar las extremidades de los monstruos en lugar de apuntar a la cabeza. La atmósfera es increíblemente opresiva, utilizando una interfaz integrada totalmente en el traje de Isaac para que no haya menús que rompan la inmersión, mientras navegas por pasillos oscuros llenos de sonidos industriales inquietantes y zonas de gravedad cero. Isaac no es un soldado, es un hombre común atrapado en una pesadilla mecánica y psicológica, lo que aumenta la sensación de vulnerabilidad mientras intentas reparar los sistemas de la nave para sobrevivir. El juego combina perfectamente el horror visceral con una narrativa tensa sobre la locura y el aislamiento en el espacio profundo, convirtiéndose en un referente absoluto para cualquiera que busque una experiencia aterradora y técnicamente impecable.",
+        "imgs": ["DeadSpace.jpg"],
+        "trucos": ["R1 + Círculo: Tiro colocado", "L1: Regate preciso"]
+    },
+    "gta6": {
+        "color": "#e91e63",
+        "titulo": "GTA VI",
+        "texto": "El regreso más esperado a Vice City. Explora el estado de Leonida en la entrega más ambiciosa de la historia de Rockstar Games.",
+        "imgs": ["Gta6.jpg"],
+        "trucos": ["No hay trucos disponibles"]
+    },
+    "The Crew Motorfest": {
+        "color": "#e91e63",
+        "titulo": "The Crew Motorfest",
+        "texto": "**The Crew Motorfest** traslada la acción de la franquicia a la vibrante isla de Oʻahu en Hawái, abandonando el mapa masivo de Estados Unidos para centrarse en un entorno mucho más detallado, colorido y denso. El juego se estructura en torno a un festival de automovilismo donde la cultura del coche es la protagonista absoluta, permitiendo a los jugadores participar en diversas listas de reproducción temáticas que exploran desde el legado de los coches clásicos y los potentes motores americanos hasta la precisión de los vehículos japoneses de drift o la velocidad tecnológica de los monoplazas eléctricos. La jugabilidad mantiene la esencia de mundo abierto donde puedes cambiar instantáneamente entre coche, avión o lancha para explorar paisajes que van desde selvas tropicales exuberantes y laderas volcánicas hasta las calles iluminadas de Honolulu. Uno de los aspectos más destacados es su apartado visual, que aprovecha la belleza natural de la isla para ofrecer atardeceres espectaculares y una iluminación que hace que cada carrera se sienta como una celebración. El manejo de los vehículos ha sido refinado para ofrecer una sensación más satisfactoria y diversa dependiendo del terreno, ya sea compitiendo en circuitos cerrados, haciendo rutas todoterreno por el barro o simplemente recorriendo la costa a toda velocidad. Con un fuerte enfoque en el contenido constante y eventos multijugador masivos, el título se posiciona como una experiencia diseñada para disfrutar de la conducción pura en un paraíso tropical, invitando a los entusiastas de la velocidad a coleccionar cientos de vehículos y personalizar su experiencia en un entorno que nunca deja de sentirse vivo y lleno de energía.",
+        "imgs": ["The Crew Motorfest.jpg","The Crew Motorfest2.jpg","The Crew Motorfest3.jpg"],
+        "trucos": ["No hay trucos disponibles"]
+    },
+    "Rocket League": {
+        "color": "#e91e63",
+        "titulo": "Rocket League",
+        "texto": "**Rocket League** es un híbrido espectacular que combina el fútbol de estilo arcade con el caos de los vehículos impulsados por cohetes en una experiencia llena de adrenalina donde los jugadores controlan coches capaces de alcanzar velocidades increíbles y realizar saltos acrobáticos para golpear un balón gigante dentro de arenas cerradas donde las leyes de la física son las protagonistas. El juego permite conducir por las paredes y utilizar propulssores para volar por el aire lo que transforma cada partido en una coreografía técnica de piruetas y choques a gran velocidad ya que aunque los controles son fáciles de entender para cualquier principiante dominar el posicionamiento y los golpes aéreos requiere mucha precisión y práctica constante. La personalización es otro de los pilares fundamentales porque ofrece miles de combinaciones para modificar la apariencia de los vehículos incluyendo calcomanías y efectos de explosión al anotar goles en partidos que suelen ser breves e intensos lo que facilita jugar varias rondas seguidas de forma casual o competitiva. Gracias a su sistema de juego basado totalmente en la habilidad y el trabajo en equipo se ha consolidado como uno de los títulos más populares en el mundo de los deportes electrónicos capturando la emoción de un deporte real con la locura de los motores a reacción en un entorno futurista.",
+        "imgs": ["RL.jpg"],
+        "trucos": ["No hay trucos disponibles"]
+    },
+    "Cuphead": {
+        "color": "#e91e63",
+        "titulo": "Cuphead",
+        "texto": "",
+        "imgs": ["Cuphead.jpg","Cuphead2.jpg"],
+        "trucos": ["No hay trucos disponibles"]
+    },
+    "Cities Skylines": {
+        "color": "#e91e63",
+        "titulo": "Cities Skylines",
+        "texto": "",
+        "imgs": ["Cities.jpg","Cities2.jpg"],
+        "trucos": ["No hay trucos disponibles"]
+    },
+    "AstroBot": {
+        "color": "#e91e63",
+        "titulo": "AstroBot",
+        "texto": "",
+        "imgs": ["Astrobot.jpg","Astrobot2.jpg"],
+        "trucos": ["No hay trucos disponibles"]
+    },    
+    "Saga Forza Horizon": {
+        "color": "#e91e63",
+        "titulo": "Saga Forza Horizon",
+        "texto": "",
+        "imgs": ["ForzaH.jpg","ForzaH2.jpg"],
+        "trucos": ["No hay trucos disponibles"]
+    },
+    "Overkoocked": {
+        "color": "#e91e63",
+        "titulo": "Overkoocked",
+        "texto": "",
+        "imgs": ["overkoocked.jpg","overkoocked2.jpg","overkoocked3.jpg"],
+        "trucos": ["No hay trucos disponibles"]
+    },
+    "Cyberpunk": {
+        "color": "#e91e63",
+        "titulo": "Cyberpunk",
+        "texto": "",
+        "imgs": ["Arasaka.jpg","militech.jpg"],
+        "trucos": ["No hay trucos disponibles"]
+    },
+    "Forza Horizon 6": {
+        "color": "#e91e63",
+        "titulo": "Forza Horizon 6",
+        "texto": "",
+        "imgs": ["ForzaH6.jpg"],
+        "trucos": ["No hay trucos disponibles"]
+    },
+    "Red Dead Redemption": {
+        "color": "#e91e63",
+        "titulo": "Red Dead Redemption",
+        "texto": "",
+        "imgs": ["red dead redemption.jpg","red dead redemption2.jpg"],
+        "trucos": ["No hay trucos disponibles"]
+    },
+    "God Of War": {
+        "color": "#e91e63",
+        "titulo": "God of war",
+        "texto": "",
+        "imgs": ["God Of War.jpg","God Of War2.jpg"],
+        "trucos": ["No hay trucos disponibles"]
+    },
+    "Battlegrounds": {
+        "color": "#e91e63",
+        "titulo": "Battlegrounds",
+        "texto": "",
+        "imgs": ["Battlegrounds.jpg","Battlegrounds2.jpg"],
+        "trucos": ["No hay trucos disponibles"]
+    },    
+    "Falls Guys": {
+        "color": "#e91e63",
+        "titulo": "Falls Guys",
+        "texto": "",
+        "imgs": ["FallsGuys.jpg","FallsGuys2.jpg"],
+        "trucos": ["No hay trucos disponibles"]
+    },  
+    "Valorant": {
+        "color": "#e91e63",
+        "titulo": "Valorant",
+        "texto": "",
+        "imgs": ["Valorant.jpg","Valorant2.jpg"],
+        "trucos": ["No hay trucos disponibles"]
+    },      
+    "Farming": {
+        "color": "#e91e63",
+        "titulo": "Farming",
+        "texto": "",
+        "imgs": ["Farming.jpg","Farming2.jpg"],
+        "trucos": ["No hay trucos disponibles"]
+    },    
+    "Snowrunner": {
+        "color": "#e91e63",
+        "titulo": "Snowrunner",
+        "texto": "",
+        "imgs": ["Snowrunner.jpg","Snowrunner2.jpg"],
+        "trucos": ["No hay trucos disponibles"]
+    },  
+    "Days Gone": {
+        "color": "#e91e63",
+        "titulo": "Days Gone",
+        "texto": "",
+        "imgs": ["DaysGone.jpg","DaysGone2.jpg"],
+        "trucos": ["No hay trucos disponibles"]
+    }
+}

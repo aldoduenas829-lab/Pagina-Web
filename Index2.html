@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer Hub - Saga GTA & Más</title>
+    <!-- Vinculación con la hoja de estilos externa -->
+    <link rel="stylesheet" href="Index2.css">
+</head>
+<body>
+
+<!-- ENCABEZADO PRINCIPAL DE LA PÁGINA -->
+<header>
+    <h1>InfoGames</h1>
+    <p>Información sobre videojuegos</p>
+</header>
+
+<!-- BARRA DE NAVEGACIÓN STICKY -->
+<nav class="nav-principal">
+    <button class="btn-nav" onclick="mostrarSeccion('Comunidad')">🫂 Comunidad</button> 
+    <button class="btn-nav" onclick="mostrarSeccion('lanzamientos')">🚀 Próximos</button>
+    <button class="btn-nav" onclick="mostrarSeccion('juegos')">🎮 Juegos</button>
+    <button class="btn-nav" onclick="mostrarSeccion('favoritos')">⭐ Favoritos</button>
+    <button class="btn-nav" onclick="mostrarSeccion('inicio')">🏠 Inicio</button>
+</nav>
+
+<!-- =================================================== -->
+<!-- 1. SECCIÓN DE INICIO (NUEVO PANEL DE NOTICIAS)      -->
+<!-- =================================================== -->
+<section id="seccionInicio" class="seccion-contenedor">
+    <h2 class="subtitulo">📰 Noticias Recientes del Gaming</h2>
+    <div class="panel-noticias">
+        
+        <!-- Noticia 1 -->
+        <article class="noticia-card">
+            <img src="ForniteNoti.jpg" alt="Nueva Temporada" class="noticia-img">
+            <div class="noticia-contenido">
+                <span class="noticia-tag">Actualización</span>
+                <h3>Fortnite anuncia un nuevo mapa colosal para la próxima temporada</h3>
+                <p>Epic Games ha confirmado un reinicio masivo en los entornos competitivos con físicas destructibles renovadas.</p>
+            </div>
+        </article>
+
+        <!-- Noticia 2 -->
+        <article class="noticia-card">
+            <img src="FcNoti.jpg" alt="EA Sports FC" class="noticia-img">
+            <div class="noticia-contenido">
+                <span class="noticia-tag">Deportes</span>
+                <h3>EA Sports FC prepara el mayor torneo crossplay de su historia</h3>
+                <p>Las plataformas de nueva generación se unirán en un circuito global unificado con jugosos premios en efectivo.</p>
+            </div>
+        </article>
+
+        <!-- Noticia 3 -->
+        <article class="noticia-card">
+            <img src="DeadNoti.jpg" alt="Terror Espacial" class="noticia-img">
+            <div class="noticia-contenido">
+                <span class="noticia-tag">Rumor</span>
+                <h3>Creadores de Dead Space insinúan un nuevo proyecto de horror psicológico</h3>
+                <p>Un misterioso arte conceptual filtrado en redes apunta a que la ciencia ficción oscura está de regreso.</p>
+            </div>
+        </article>
+
+        <!-- Noticia 4 -->
+        <article class="noticia-card">
+            <img src="CitiesNoti.jpg" alt="Simulación" class="noticia-img">
+            <div class="noticia-contenido">
+                <span class="noticia-tag">Estrategia</span>
+                <h3>Cities Skylines recibe una expansión masiva de transporte futurista</h3>
+                <p>Añadirán trenes de levitación magnética y sistemas eco-sustentables automáticos para las megaciudades.</p>
+            </div>
+        </article>
+
+        <!-- Noticia 5 -->
+        <article class="noticia-card">
+            <img src="HarwareNoti.jpg" alt="Tecnología" class="noticia-img">
+            <div class="noticia-contenido">
+                <span class="noticia-tag">Hardware</span>
+                <h3>Consolas de nueva generación prometen trazado de rayos a 120 FPS estables</h3>
+                <p>Nuevos parches de optimización de motor gráfico permitirán duplicar el rendimiento visual este año.</p>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<!-- =================================================== -->
+<!-- 2. SECCIÓN PRÓXIMOS LANZAMIENTOS                   -->
+<!-- =================================================== -->
+<section id="seccionLanzamientos" class="seccion-especial" style="display:none;">
+    <h2 class="subtitulo">🚀 Próximos Lanzamientos</h2>
+    <!-- Este contenedor será llenado automáticamente por JS usando el JSON -->
+    <div class="grid-juegos" id="gridLanzamientos"></div>
+</section>
+
+<!-- =================================================== -->
+<!-- 3. SECCIÓN CATÁLOGO DE JUEGOS (AHORA CON MÓVILES)  -->
+<!-- =================================================== -->
+<section id="seccionJuegos" style="display:none;">
+    <!-- Subsección General (Consolas y PC) -->
+    <h2 class="subtitulo">🕹️ Catálogo de Títulos Principales</h2>
+    <div class="grid-juegos" id="gridJuegosEstandar"></div>
+
+    <!-- NUEVA SUBSECCIÓN: JUEGOS MÓVILES -->
+    <div class="separador-movil">
+        <h2 class="subtitulo">📱 Juegos para Dispositivos Móviles</h2>
+        <p class="descripcion-seccion">Los mejores títulos optimizados para llevar en tu bolsillo</p>
+    </div>
+    <div class="grid-juegos" id="gridJuegosMoviles"></div>
+</section>
+
+<!-- =================================================== -->
+<!-- 4. PANELES DE DETALLES DINÁMICOS                    -->
+<!-- =================================================== -->
+<section class="detalle-juego" id="areaDetalles" style="display:none;">
+    <h2 id="titulo">Bienvenido</h2>
+    <div class="layout-info">
+        <div class="texto-container">
+            <p id="descripcion">Selecciona un juego para ver su historia.</p>
+            
+            <!-- Sistema de Estrellas de Calificación -->
+            <div class="rating-box">
+                <span>Calificación:</span>
+                <div class="stars" id="starsContainer">
+                    <span class="star" data-value="1">★</span>
+                    <span class="star" data-value="2">★</span>
+                    <span class="star" data-value="3">★</span>
+                    <span class="star" data-value="4">★</span>
+                    <span class="star" data-value="5">★</span>
+                </div>
+            </div>
+            
+            <!-- Botones de acción dinámicos -->
+            <div class="acciones">
+                <div id="botonFavorito"></div>
+                <div id="botonTrucos"></div>
+            </div>
+        </div>
+
+        <div class="media-container">
+            <!-- Caja de trucos e imágenes -->
+            <div id="trucos" class="trucos-box"></div>
+            <div class="galeria" id="imagenes"></div>
+        </div>
+    </div>
+</section>
+
+<!-- =================================================== -->
+<!-- 5. SECCIÓN DE FAVORITOS                             -->
+<!-- =================================================== -->
+<section id="seccionFavoritos" style="display:none;" class="seccion-favoritos">
+    <h2 class="subtitulo">Tu Lista de Favoritos</h2>
+    <div id="listaFavoritos" class="favoritos-grid"></div>
+</section>
+
+
+<!-- =================================================== -->
+<!-- 6. SECCIÓN DE COMUNIDAD                              -->
+<!-- =================================================== -->
+<section id="seccionComunidad" style="display:none;" class="seccion-contenedor">
+    <h2 class="subtitulo">🫂 Espacio de la Comunidad</h2>
+    <div class="comunidad-layout">
+        
+        <!-- Recomendador Aleatorio -->
+        <div class="comunidad-card box-interactivo">
+            <h3>🎰 ¿Qué jugamos hoy?</h3>
+            <p>¿No sabes qué jugar? Deja que el sistema elija una joya de nuestro catálogo al azar por ti.</p>
+            <button class="btn-nav" onclick="recomendarJuegoAleatorio()">Sorpréndeme</button>
+        </div>
+
+        <!-- El Batallómetro (Votaciones) -->
+        <div class="comunidad-card box-interactivo">
+            <h3>⚔️ El Batallómetro</h3>
+            <p>Vota por el rey del Mundo Abierto de la era clásica:</p>
+            <div class="batalla-votos">
+                <button class="btn-nav" onclick="votar('sa')">🔥 GTA San Andreas</button>
+                <span class="vs">VS</span>
+                <button class="btn-nav" onclick="votar('vice')">🌴 GTA Vice City</button>
+            </div>
+            <div id="resultadosVotos" class="resultados-votos"></div>
+        </div>
+
+    </div>
+</section>
+
+<!-- PIE DE PÁGINA -->
+<footer>
+    <p>Proyecto Sistemas - 4° Semestre | Aldo Dueñas y Brandon Duran</p>
+</footer>
+
+<!-- =================================================== -->
+<!-- LÓGICA EN JAVASCRIPT EXPLICADA BLOQUE A BLOQUE      -->
+<!-- =================================================== -->
+<script>
+// Objeto global que almacenará temporalmente toda la info de los juegos cargados desde el JSON
+let datos = {};
+
+// BLOQUE 1: Cargar datos desde el JSON e iniciar el renderizado de tarjetas
+async function cargarDatos() {
+    try {
+        const respuesta = await fetch('datos.json');
+        datos = await respuesta.json();
+        // Una vez que tenemos los datos del JSON, pintamos las tarjetas automáticamente
+        generarTarjetas();
+    } catch (e) { 
+        console.error("Error al cargar el archivo JSON", e); 
+    }
+}
+// Llamamos de inmediato a la función al abrir la web
+cargarDatos();
+
+// BLOQUE 2: Generación Automática de Tarjetas (Evita meterlas a mano en el HTML)
+function generarTarjetas() {
+    const gridEstandar = document.getElementById("gridJuegosEstandar");
+    const gridMoviles = document.getElementById("gridJuegosMoviles");
+    const gridLanzamientos = document.getElementById("gridLanzamientos");
+
+    // Limpiamos los contenedores por seguridad
+    gridEstandar.innerHTML = "";
+    gridMoviles.innerHTML = "";
+    gridLanzamientos.innerHTML = "";
+
+    // Recorremos cada clave de juego definida en tu archivo JSON
+    Object.keys(datos).forEach(clave => {
+        const juego = datos[clave];
+        
+        // Creamos la estructura div clásica de tu tarjeta (.card)
+        const tarjeta = document.createElement("div");
+        tarjeta.className = "card";
+        tarjeta.onclick = () => cambiarJuego(clave); // Le asignamos el evento de click
+
+        // Respetamos perfectamente tus rutas de imágenes dinámicas extraídas de tu JSON
+        tarjeta.innerHTML = `
+            <img src="${juego.imgs[0]}" alt="${juego.titulo}">
+            <div class="card-info"><span>${juego.titulo}</span></div>
+        `;
+
+        // CLASIFICACIÓN INTELIGENTE DE TARJETAS:
+        // 1. Si es un próximo lanzamiento (gta6 o Forza Horizon 6) se va a su cuadrícula especial
+        if (clave === "gta6" || clave === "Forza Horizon 6") {
+            gridLanzamientos.appendChild(tarjeta);
+        } 
+        // 2. Si definimos que es móvil (por ejemplo: Fortnite o Fall Guys que están en celulares) se va a la sección móvil
+        else if (clave === "fornite" || clave === "Falls Guys") {
+            gridMoviles.appendChild(tarjeta);
+        } 
+        // 3. De lo contrario, se renderiza en el catálogo estándar de PC / Consolas
+        else {
+            gridEstandar.appendChild(tarjeta);
+        }
+    });
+}
+
+// BLOQUE 3: Controlador de visibilidad de pantallas/pestañas
+function mostrarSeccion(seccion){
+    // Oculta o muestra secciones completas evaluando si el string coincide con el id solicitado
+    document.getElementById("seccionInicio").style.display = seccion === "inicio" ? "block" : "none";
+    document.getElementById("seccionJuegos").style.display = seccion === "juegos" ? "block" : "none";
+    document.getElementById("seccionFavoritos").style.display = seccion === "favoritos" ? "block" : "none";
+    document.getElementById("seccionLanzamientos").style.display = seccion === "lanzamientos" ? "block" : "none";
+    document.getElementById("seccionComunidad").style.display = seccion === "Comunidad" ? "block" : "none";
+    
+    // Ocultamos la sección inferior de detalles para limpiar la interfaz al cambiar de vista
+    document.getElementById("areaDetalles").style.display = "none"; 
+    
+    // Si entramos a la vista de favoritos, disparamos su lector de LocalStorage
+    if(seccion === "favoritos") mostrarFavoritos();
+}
+
+// BLOQUE 4: Cargador dinámico del panel inferior de detalles del juego
+function cambiarJuego(juego){
+    if (!datos[juego]) return;
+    
+    const area = document.getElementById("areaDetalles");
+    area.style.display = "block"; // Hacemos visible el contenedor de info
+    
+    // Insertamos los textos informativos
+    document.getElementById("titulo").textContent = datos[juego].titulo;
+    document.getElementById("descripcion").textContent = datos[juego].texto;
+    
+    // Ajuste dinámico de la variable CSS para cambiar la pestaña de color izquierdo según el juego
+    document.documentElement.style.setProperty('--color-principal', datos[juego].color);
+
+    // Renderizado de la galería de capturas del juego
+    const contenedor = document.getElementById("imagenes");
+    contenedor.innerHTML = "";
+    datos[juego].imgs.forEach(src => {
+        let img = document.createElement("img");
+        img.src = src;
+        contenedor.appendChild(img);
+    });
+
+    // Reset y configuración del panel de trucos y botones interactivos
+    document.getElementById("trucos").innerHTML = "";
+    document.getElementById("botonFavorito").innerHTML =
+    `<button class="btn-accion" onclick="guardarFavorito('${juego}')">⭐ Guardar en favoritos</button>`;
+    document.getElementById("botonTrucos").innerHTML = `<button class="btn-accion" onclick="mostrarTrucos('${juego}')">Ver Trucos</button>`;
+    
+    // Desplazamiento fluido hacia abajo para enfocar la información cargada
+    window.scrollTo({top: area.offsetTop - 70, behavior: 'smooth'});
+}
+
+// BLOQUE 5: Despliegue de claves y combinaciones secretas
+function mostrarTrucos(juego){
+    const div = document.getElementById("trucos");
+    let lista = "<h3>Trucos / Mecánicas:</h3><ul>";
+    datos[juego].trucos.forEach(t => { lista += `<li>> ${t}</li>`; });
+    div.innerHTML = lista + "</ul>";
+}
+
+// BLOQUE 6: Manejo y persistencia de favoritos con LocalStorage
+function guardarFavorito(juego){
+    let favoritos = JSON.parse(localStorage.getItem("favoritos")) || [];
+
+    if(!favoritos.includes(juego)){
+        favoritos.push(juego);
+        localStorage.setItem("favoritos", JSON.stringify(favoritos));
+        alert(`${datos[juego].titulo} ha sido añadido a tu lista de favoritos.`);
+    } else {
+        alert("Este título ya está en tu lista.");
+    }
+}
+
+// BLOQUE 7: Dibujar la colección de favoritos almacenados localmente
+function mostrarFavoritos(){
+    const contenedor = document.getElementById("listaFavoritos");
+    contenedor.innerHTML = "";
+
+    let favoritos = JSON.parse(localStorage.getItem("favoritos")) || [];
+
+    if(favoritos.length === 0) {
+        contenedor.innerHTML = `<p class="vacio-txt">Aún no has agregado juegos a tus favoritos.</p>`;
+        return;
+    }
+
+    favoritos.forEach(juego => {
+        if(datos[juego]){
+            let div = document.createElement("div");
+            div.className = "card";
+            div.innerHTML = `
+                <img src="${datos[juego].imgs[0]}" alt="${datos[juego].titulo}">
+                <div class="card-info"><span>${datos[juego].titulo}</span></div>
+            `;
+            div.onclick = () => cambiarJuego(juego);
+            contenedor.appendChild(div);
+        }
+    });
+}
+
+// BLOQUE 8: Lógica Interactiva - Recomendador de Videojuegos al Azar
+function recomendarJuegoAleatorio() {
+    // Filtramos las claves omitiendo lanzamientos vacíos
+    const juegosDisponibles = Object.keys(datos).filter(k => k !== "gta6" && k !== "Forza Horizon 6");
+    const claveAleatoria = juegosDisponibles[Math.floor(Math.random() * juegosDisponibles.length)];
+    
+    // Abrimos el juego seleccionado en el panel inferior automáticamente
+    cambiarJuego(claveAleatoria);
+}
+
+// BLOQUE 9: Lógica Interactiva - Sistema de Votaciones Dinámicas (Batallómetro)
+function votar(juego) {
+    // Guardamos las puntuaciones ficticias o incrementales en LocalStorage
+    let votosSA = parseInt(localStorage.getItem("votos_sa")) || 42;
+    let votosVice = parseInt(localStorage.getItem("votos_vice")) || 38;
+
+    if(juego === 'sa') votosSA++;
+    if(juego === 'vice') votosVice++;
+
+    localStorage.setItem("votos_sa", votosSA);
+    localStorage.setItem("votos_vice", votosVice);
+
+    // Calculamos el porcentaje matemático de la barra competitiva
+    const total = votosSA + votosVice;
+    const porcSA = Math.round((votosSA / total) * 100);
+    const porcVice = Math.round((votosVice / total) * 100);
+
+    // Imprimimos el resultado con una barra de progreso visual directo en la pantalla
+    const resDiv = document.getElementById("resultadosVotos");
+    resDiv.innerHTML = `
+        <div class="marcador">
+            <span>🔥 San Andreas: ${porcSA}% (${votosSA} votos)</span>
+            <span>🌴 Vice City: ${porcVice}% (${votosVice} votos)</span>
+        </div>
+        <div class="barra-progreso-total">
+            <div class="barra-progreso-relleno" style="width: ${porcSA}%"></div>
+        </div>
+    `;
+}
+</script>
+</body>
+</html>
